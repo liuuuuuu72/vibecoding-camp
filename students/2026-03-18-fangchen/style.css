@@ -1,6 +1,7 @@
+/* 全域設定：讓網頁背景乾淨，字體更舒服 */
 body {
     background-color: #f0f2f5;
-    font-family: "Microsoft JhengHei", sans-serif;
+    font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +10,7 @@ body {
     margin: 0;
 }
 
+/* 圖片美化：控制大小，加入圓角與陰影 */
 img {
     width: 280px;
     height: 280px;
@@ -23,6 +25,7 @@ img:hover {
     transform: scale(1.05); /* 滑鼠移上去會輕微放大 */
 }
 
+/* 標題美化：讓你的名字更有質感 */
 h1 {
     color: #1a73e8; /* 稍微深一點的質感藍 */
     margin-top: 25px;
